@@ -5,35 +5,85 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kilder</title>
     <style>
-      :root {
-        color-scheme: dark;
-      }
-      * {
-        font-family: Georgia, "Times New Roman", Times, serif;
-      }
-      h1 {
-        text-align: center;
-        font-size: 1rem;
-      }
-      main {
-        max-width: 21cm;
-        margin: 0 auto;
-      }
-      p {
-        padding-left: 1.27cm;
-        text-indent: -1.27cm;
-        line-height: 2;
-        font-size: 1rem;
-        overflow-wrap: break-word;
-        margin: 0;
-      }
-      ul {
-        padding: 0;
-        margin: 0;
-      }
-      li {
-        list-style: none;
-      }
+:root {
+  color-scheme: dark;
+  font-family: "Trebuchet MS", Arial, sans-serif;
+  color: #f0faff;
+  background: #06314c;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 1rem;
+  background: linear-gradient(
+    to bottom,
+    #75d1f1 0%,
+    #22add7 20%,
+    #087ba7 45%,
+    #075477 70%,
+    #062b42 100%
+  );
+}
+
+main {
+  max-width: 21cm;
+  margin: 0 auto;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+ul {
+  margin: 0;
+  padding: 2rem;
+  list-style: none;
+  background: rgba(11, 36, 53, 0.88);
+  border: 4px solid #FDEE56;
+  border-radius: 1rem;
+  box-shadow:
+    0 0 8px #FDEE56,
+    inset 0 0 8px #FDEE56;
+}
+
+li + li {
+  margin-top: 1.5rem;
+}
+
+p {
+  margin: 0;
+  padding-left: 1.27cm;
+  text-indent: -1.27cm;
+  font-size: 1rem;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+}
+
+a {
+  color: #7ED4FA;
+}
+
+a:visited {
+  color: #CE93D8;
+}
+
+a:hover,
+a:active {
+  color: #CE93D8;
+  text-decoration: none;
+}
+
+a:focus-visible {
+  color: #FDEE56;
+  outline: 2px solid #FDEE56;
+}
     </style>
   </head>
   <body>
